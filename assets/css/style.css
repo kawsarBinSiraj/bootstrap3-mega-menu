@@ -1,0 +1,165 @@
+
+
+/**
+ * @Main css for (Template/Project Name)
+ *
+ * @project     - Project Name
+ * @author      - 
+ * @created_by  - 
+ * @created_at  - 
+ * @modified_by -
+ */
+
+
+/**
+ * Normal Reset
+ * Imported Files
+ * @font-face
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+/**
+ * Normal Reset
+ * Imported Files
+ * @font-face'End
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*
+ * @CSS for Navigation
+ */
+#navigation {
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+#navigation .navbar {
+    margin: 0;
+    padding: 0;
+    min-height:0;
+}
+
+#navigation .navbar-default .navbar-nav li > a {
+    margin:12px 5px;
+    padding:6px 10px;
+    color: #ffffff;
+    font-size:14px;
+    line-height:20px;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    text-transform: uppercase;
+}
+
+@media (min-width:767px){
+    #navigation .navbar-default .navbar-nav li:first-child a,
+    #navigation .container-fluid,
+    #navigation .navbar-collapse.collapse { 
+        padding-left: 0;
+    } 
+
+    #navigation .navbar-default .navbar-nav {
+        text-align: center;
+        float: none;
+    }
+    #navigation .navbar-default .navbar-nav li {
+        float: none;
+        display: inline-block;
+    }
+}
+
+#navigation .navbar-default .navbar-nav li a:hover ,
+#navigation .navbar-default .navbar-nav li a:focus {
+    color: #dddddd;
+    background-color: transparent !important;
+}
+
+#navigation .navbar-default {
+    background-color: #0099e5;
+    border-radius: 0%;
+    border:none;
+}
+
+@media (max-width:991px){
+    #navigation .navbar-default .navbar-nav li > a {
+        padding: 5px 7px;
+    }
+}
+
+#navigation .navbar-default .navbar-nav li .dropdown-menu li {
+    display: block;
+}
+#navigation .navbar-default .navbar-nav li .dropdown-menu li a {
+    color: #ffffff !important;
+    padding: 6px 15px;
+    margin: 0;
+    font-size: 14px;
+    background-color: transparent;
+    text-transform: uppercase;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+#navigation .navbar-default .navbar-nav li .dropdown-menu li a:hover {
+    background-color: transparent;
+    color: #fff!important;
+    padding-left: 20px !important;
+}
+
+#navigation .navbar-default .navbar-nav li .dropdown-menu {
+    min-width: 225px;
+    background-color: #0089ce;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    border: 0;
+}
+#navigation .navbar-default .navbar-nav li > .dropdown-menu .dropdown-menu  {
+    left: 102% !important;
+    top: 0% !important;
+}
+#navigation .navbar-default .navbar-nav li > .dropdown-menu span.caret {
+    -webkit-transform: translateY(-1px) rotate(-90deg) !important;
+    transform: translateY(-1px) rotate(-90deg) !important;
+}
+
+@media (max-width:767px){
+    #navigation .navbar-default .navbar-nav li a {
+        text-align: center;
+    }
+    #navigation .navbar-default .navbar-nav li .dropdown-menu  {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* 
+#navigation .navbar-default .navbar-nav .dropdown > .dropdown-menu ,
+#navigation .navbar-default .navbar-nav .dropdown:focus > .dropdown-menu {
+	display:block !important;
+} */
+
+
+/*
+ * @CSS for Navigation
+ */
