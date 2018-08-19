@@ -154,10 +154,11 @@ body {
 }
 
 /* 
-#navigation .navbar-default .navbar-nav .dropdown > .dropdown-menu ,
+#navigation .navbar-default .navbar-nav .dropdown:hover > .dropdown-menu ,
 #navigation .navbar-default .navbar-nav .dropdown:focus > .dropdown-menu {
 	display:block !important;
-} */
+} 
+*/
 
 
 /*
